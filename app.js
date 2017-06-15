@@ -2,7 +2,7 @@ const commander = require('commander');
 
 const add = require('./lib/commands/add')();
 const multiply = require('./lib/commands/multiply')();
-const average = require('./lib/commands/setupNetwork')();
+const average = require('./lib/commands/average')();
 
 commander
   .command(`add [numbers...]`)
