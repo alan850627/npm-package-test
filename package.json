@@ -1,0 +1,25 @@
+{
+  "name": "npm-package-test",
+  "version": "1.0.0",
+  "description": "testing distribution using npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*js",
+    "package": "pkg --out-path ./build/ app.js"
+  },
+  "author": "Alan Chen",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.4.1",
+    "commander": "^2.9.0",
+    "ssh2": "^0.5.4",
+    "telnet-client": "^0.15.x"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "bin": {
+    "calculator": "app.js"
+  }
+}
