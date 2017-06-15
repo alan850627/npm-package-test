@@ -8,8 +8,11 @@
     "package": "pkg --out-path ./build/ app.js"
   },
   "author": "Alan Chen",
-  "url": "https://github.com/alan850627/npm-package-test",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alan850627/npm-package-test.git"
+  },
   "dependencies": {
     "async": "^2.4.1",
     "commander": "^2.9.0",
@@ -21,6 +24,6 @@
     "mocha": "^3.4.2"
   },
   "bin": {
-    "calculator": "app.js"
+    "calc": "app.js"
   }
 }
