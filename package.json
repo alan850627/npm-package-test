@@ -2,7 +2,7 @@
   "name": "npm-package-test",
   "version": "1.0.0",
   "description": "testing distribution using npm packages",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/**/*js",
     "package": "pkg --out-path ./build/ app.js"
