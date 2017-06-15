@@ -1,5 +1,5 @@
 {
-  "name": "npm-package-test",
+  "name": "alan-first-npm-package",
   "version": "1.0.0",
   "description": "testing distribution using npm packages",
   "main": "app.js",
