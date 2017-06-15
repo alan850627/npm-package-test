@@ -8,6 +8,7 @@
     "package": "pkg --out-path ./build/ app.js"
   },
   "author": "Alan Chen",
+  "url": "https://github.com/alan850627/npm-package-test",
   "license": "MIT",
   "dependencies": {
     "async": "^2.4.1",
