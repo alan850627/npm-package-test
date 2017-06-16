@@ -5,6 +5,7 @@ const commander = require('commander');
 const add = require('./lib/commands/add')();
 const multiply = require('./lib/commands/multiply')();
 const average = require('./lib/commands/average')();
+const pjson = require('./package.json');
 
 commander
   .command(`add [numbers...]`)
@@ -22,9 +23,7 @@ commander
   .action(average);
 
 commander
-  .command(`-v`)
-  .description('returns the version number')
-  .action(console.log(`Version: ${process.version}`);)
+  .version(pjson.version);
 
 commander.parse(process.argv);
 
