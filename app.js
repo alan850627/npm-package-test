@@ -21,6 +21,11 @@ commander
   .description(`calculates the average`)
   .action(average);
 
+commander
+  .command(`-v`)
+  .description('returns the version number')
+  .action(console.log(`Version: ${process.version}`);)
+
 commander.parse(process.argv);
 
 if (noArgs()) {
